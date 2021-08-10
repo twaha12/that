@@ -9,8 +9,7 @@ pipeline {
 
     stage('cat') {
       steps {
-        sh '''echo "hello worl"
-'''
+        echo 'hello'
       }
     }
 
