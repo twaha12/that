@@ -9,7 +9,6 @@ pipeline {
 
     stage('cat') {
       steps {
-        build 'ant'
         sh '''echo "hello worl"
 '''
       }
